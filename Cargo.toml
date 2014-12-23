@@ -5,5 +5,7 @@ version = "0.0.1"
 authors = ["Paul Woolcock <paul@woolcock.us>"]
 license = "BSD-3-Clause"
 description = "Client library for the [Star Wars API](http://swapi.co)"
-website = "http://swapi.co"
+homepage = "http://swapi.co"
 
+[dependencies]
+hyper = "*"
